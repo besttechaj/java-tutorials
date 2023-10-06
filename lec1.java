@@ -1,5 +1,3 @@
-class Test{
-
 //steps to run the java code: 
 
 // step-1 : compiler  convert your code(.java file) to byte code(ie .class file) which is given to jvm (which looks for main() method to initialize your code) --> javac file-Name (this will create a .class byte code file) 
@@ -13,8 +11,13 @@ class Test{
 // jdk : java development kit consists of jvm and jre. you need to install jdk on your machine to write code in java so that jre and jvm automatically installed on your machine.
 
 // java is also known as WORA language (write once run anywhere) : this means programmer can develop java code on one system and can expect it to run on any other java-enabled system without any adjustment(ie on any other different hardware's operating system).this is all possible because of jvm.eg in traditional programming languages like c,c++ when programs were compiled, they used to be converted into the code  understood by the particular underlying hardware, so if  we try to run the same code at another machine with different hardware, which understands different code will cause an error, so you have to re-compile the code to be understood by the new hardware. In java, the program is not converted to code directly understood by hardware, rather it is converted to bytecode(.class file), which is interpreted by jvm, so once compiled it generates bytecode file, which can be run anywhere ( any machine ) which has JVM by default and hence it gets the nature of WORA language. hence java is platform independent whereas jvm and jre are platform dependent.
+
+// java is strongly typed language (sensitive) ie. For different types of data we have different data types. Also we need to follow all the rules while writing the code in java else it will throw you an error.
+
+class Test{
   public static void main(String a[]){
-    System.out.print("hello Programmer !!");
+    System.out.println("hello Programmer !!");
+    System.out.print("How are you?");
   }
 
 } 
