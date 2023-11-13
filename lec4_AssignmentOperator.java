@@ -9,6 +9,9 @@ class Hello {
     System.out.println(num);
     System.out.println("result is "+result1);
     System.out.println("**************************************");
+
+
+
     System.out.println("POST - INCREMENT");
     // num++ ie  post - increment
     int num2 = 100;
@@ -20,5 +23,56 @@ class Hello {
     //Note : both num++ and ++num works same if they are used individual but works differently when using with some operators 
 
     // To check whether two variable's literal is same or not use "==" comparison operator 
+
+
+
+
+    // some of the other operators are as follows :
+    // a) AND operator --> && 
+    // b) OR operator --> ||
+    // c) NOT operator --> !
+
+    // conditional operators 
+    // a) if(condition){} else{} 
+    // b) if(condition){} else if(condition){} else if(condition){} else{}
+
+
+
+    // Ternary Operator  **********************************
+    int n = 12;
+    int final_result = 0 ;
+    final_result=n%2==0? 10 : 20 ;
+    // after updating the value your result is ... 
+    System.out.println(final_result);
+
+
+
+  // Switch operator based on different cases ************************
+  int n2 = 3;
+  switch(n2) {
+    case 1:
+    System.out.println("case -1 matched ");
+    break;
+    case 2:
+    System.out.println("case -2 matched ");
+    break;
+    case 3:
+    System.out.println("case -3 matched ");
+    break; // MANDATORY ELSE GO THE NEXT LINE TO PRINT TILL THE END POINT
+    case 4:
+    System.out.println("case -4 matched ");
+    break;
+    case 5:
+    System.out.println(" case -5 matched ");
+    break;
+    default:
+    System.out.println("No record found");
+      break;
+  } 
+
+
+
+  //LOOPS --> FOR LOOP , WHILE LOOP, DO WHILE LOOP
+  
   }
 }
