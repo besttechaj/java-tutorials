@@ -23,7 +23,7 @@
 
 //Non-Primitive datatype : 
 
-class Hello{
+class Hello1{
   public static void main(String args[]){
     System.out.println("Different data types in java are : ");
     //                       LITERALS
@@ -54,9 +54,9 @@ class Hello{
     System.out.println(num6);
 
     // Char can be treated as integer 
-    char c = 'j';
-    c++;
-    System.out.println(c);// k 
+    char p = 'j';
+    p++;
+    System.out.println(p);// k 
 
   }
 }

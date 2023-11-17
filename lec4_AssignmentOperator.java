@@ -1,8 +1,8 @@
-class Hello {
+class Hello2 {
   public static void main(String[] args) {
     System.out.println("Hello java");
     System.out.println("PRE - INCREMENT");
-    int num = 10 ;
+    int num = 1000 ;
     //  pre - increment ie ++num
     // while using ++num operator with assignment operator (=) :: first increment then fetch the value
     int result1 = ++num; // due to first increment 11 will be stored
@@ -74,5 +74,6 @@ class Hello {
 
   //LOOPS --> FOR LOOP , WHILE LOOP, DO WHILE LOOP
   
+  // 2hr 52min
   }
 }
