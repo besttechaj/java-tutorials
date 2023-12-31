@@ -72,16 +72,6 @@ class Calculator {
 return num1 + num2 ;  
 
 
-  //  public int add(int var1, int var2) {
-  //     return var1 + var2;
-  //  }
-
-  //  public int add(int var1, int var2, int var3) {
-  //     return var1 + var2 + var3;
-  //  }
-
-  //  public double add(double var1, int var3) {
-  //     return var1 + (double)var3;
-  //  }
+  
 }
 }
