@@ -51,27 +51,35 @@ class <class_name>{
 
  */
 
+// CREATING THE MAIN CLASS FOR CODE EXECUTION ENTRY POINT -----> Test1 
 class Test1 {
   public static void main(String[] args) {
 
     int a= 100;
     int b= 200;
 
-    //Creating an object
+    //Creating an object from the calculator class
     Calculator calc = new Calculator();
 
     int result = calc.add(a,b);
     System.out.println("answer is : "+ result);
-    
   }
 }
 
+// CREATING ANOTHER CLASS KNOWN AS----> Calculator
+
 class Calculator {
+  // declaring add method 
+
   public int add(int num1, int num2){
     System.out.println("Initiating Add method");
 return num1 + num2 ;  
+}
 
-
+//declaring multiply method
+public int mul(int num1, int num2){
+  System.out.println("Initiating multiply method");
+  return num1 * num2;
   
 }
 }
