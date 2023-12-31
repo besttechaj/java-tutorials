@@ -59,18 +59,30 @@ class Test1 {
     int b= 200;
 
     //Creating an object from the calculator class
+    //syntax: className reference_name: ie want to create an reference of type Calculator = new ClassName(constructor) :ie want to create an object of type Calculator
     Calculator calc = new Calculator();
 
+    //calling add method
     int result = calc.add(a,b);
     System.out.println("answer is : "+ result);
+
+    //calling multiply method
+    int res = calc.mul(12,12);
+    System.out.println(res);
+
+    System.out.println(calc.str);
+  
+
   }
 }
 
 // CREATING ANOTHER CLASS KNOWN AS----> Calculator
 
 class Calculator {
-  // declaring add method 
+// declaring variable
+String str = "Happy New Year - 2024";
 
+// declaring add method 
   public int add(int num1, int num2){
     System.out.println("Initiating Add method");
 return num1 + num2 ;  
