@@ -16,6 +16,12 @@ For Example, Pen is an object. Its name is Reynolds; color is white, known as it
 
 An object is an instance of a class. A class is a template or blueprint from which objects are created. So, an object is the instance(result) of a class.
 
+With the help of single class template/blueprint you can create n no. of objects from it.
+
+Real life example of class and object is like: 
+if there are n no. of people who want to reserve their seat for the travel journey via train. To control all the process you need a template/ blueprint like a reservation form that is work like your class. And from that class/ form you can create n no. of objects to store every users information.
+
+
 Object Definitions:
 
 An object is a real-world entity.
@@ -27,7 +33,7 @@ The object is an instance of a class.
 CLASS  ****************************
 
 What is a class in Java
-A class is a group of objects which have common properties. It is a template or blueprint from which objects are created. It is a logical entity. It can't be physical.
+A class is a group of objects which have common properties. Class is a template or blueprint from which objects are created. It is a logical entity. It can't be physical.
 
 A class in Java can contain:
 
@@ -63,5 +69,19 @@ class Test1 {
 class Calculator {
   public int add(int num1, int num2){
     System.out.println("Initiating Add method");
-return num1 + num2 ;   }
+return num1 + num2 ;  
+
+
+  //  public int add(int var1, int var2) {
+  //     return var1 + var2;
+  //  }
+
+  //  public int add(int var1, int var2, int var3) {
+  //     return var1 + var2 + var3;
+  //  }
+
+  //  public double add(double var1, int var3) {
+  //     return var1 + (double)var3;
+  //  }
+}
 }
