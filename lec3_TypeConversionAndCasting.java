@@ -8,6 +8,9 @@
 // boolean	: 1 bit	Stores true or false values
 // char	: 2 bytes	Stores a single character/letter or ASCII values
 
+
+    // syntax for type casting :  new_variable = ( type ) target_name
+
 class Hello3{
 
   public static void main(String args[]){
@@ -18,14 +21,19 @@ class Hello3{
     // since int value is bigger than byte range hence conversion is not possible 
     // b=a;
 
-// ## CASTING ##  ............. Explicit conversion (Also known as Narrowing .... results in few data loss )
+// ## CASTING ##  ............. Explicit conversion (Also known as Narrowing .... results in few data loss)
+byte b2= (byte)a;
+System.out.println("after narrowing ie explicit from int to byte: "+b2);
 
+// implicit conversion (ie widening) from byte to int
+int a2 = b;
+System.out.println("after widening ie implicit  from byte to int: "+a2);
 
 // converting int into byte
     byte c = 127;
     int d = 12;
-    // since int value is lesser than the byte's range hence conversion is possible with the help of explicit conversion
-    // syntax new_variable = ( type ) target_name
+    // since int value is lesser than the byte's range hence conversion is possible with the help of explicit conversion (ie need to be done manually)
+    // syntax for type casting :  new_variable = ( type ) target_name
     c=(byte)d;
     System.out.println(c); // 12 
 
@@ -47,7 +55,9 @@ class Hello3{
  byte f1 = 127;
  int x1 = 257;
  f1 = (byte)x1;  
- System.out.println(f1); //1 --> while converting int to byte 257%256=1
+ System.out.println(f1); //1 --> while converting int to byte it will divide the targeted value with the max. range of byte datatype:  257%256=1
+ //Byte is 8 bit. 8 bit can represent 256 numbers.(2 raise to 8=256).Now first bit is used for sign. [if positive then first bit=0, if negative first bit= 1].let's say you want to convert integer 1099 to byte. just divide 1099 by 256. remainder is your byte representation of int
   }
 }
 
+//task --> memory units and their conversion

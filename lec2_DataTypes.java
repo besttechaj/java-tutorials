@@ -14,7 +14,7 @@
 // double : 8 bytes (by default value in java)
 // double num = 3.5
 
-// Character : 2 bytes ( java has more bytes for character as compared to any other language eg c language ( based on ASCII values(limited to some character))  because java follows UNICODE (it contains all characters which are supported by all types of programming language) which contains integer,all alphabets, special character ). 
+// Character : 2 bytes ( java has more bytes for character data type  as compared to any other language eg c language ( based on ASCII values(limited to some character))  because java follows UNICODE (it contains all characters which are supported by all types of programming language) which contains integer,all alphabets, special character ). 
 // In java double quotes denotes the string value whereas single quotes denotes the character value
 // char c = 'k';
 
@@ -41,7 +41,7 @@ class Hello1{
     // hexadecimal number
     int num2 = 0x7E;//126
     System.out.println(num2);
-    // you can write zeros in this form also
+    // you can write zeros in this form also to understood more
     int num3 = 100_000_0000;
     System.out.println(num3);
     long num4 = 100_000_0000_0l;
