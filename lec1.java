@@ -1,11 +1,12 @@
 //steps to run the java code: 
 
-// step-1 : compiler  convert your code(.java file) to byte code(ie .class file) which is given to jvm (which looks for main() method to initialize your code) --> javac file-Name (this will create a .class byte code file) 
+// step-1 : compiler  convert your code(.java file) to byte code(ie .class file) which is given to jvm (which looks for public static main(String args[]){}(ie. signature) method to initialize your code) --> to compile your code : javac file_Name (this will create a .class byte code file) 
 
-// step-2 : run your code --> java class-Name
+// step-2 : to run your .class file code : java class_Name
 
-// jvm : java virtual machine is used to execute the java code. jvm is mainly biassed to code conversion and performs other minor functions ie memory management and security. it converts byte code into low -level machine code. ie Assembly language. jvm becomes operational when the byte code needs to be inter-preted into machine language. jvm only takes byte code file as input
-// jre : java runtime environment contains jvm and other java's libraries which support to run your java code. jre is an run time environment which provide abstraction(ie. isolated environment) instead of running your code directly on operating system (ie windows,linux,mac : which are installed on your hardware machine eg. computer,laptop) that makes java more secure programming language as compared to others.jre creates a runtime environment in which the program can run effectively.
+// jvm : java virtual machine is used to execute the java code. jvm is mainly biassed to code conversion and performs other minor functions ie memory management and security. it converts byte code into low -level machine code. ie Assembly language. jvm becomes operational when the byte code needs to be inter-preted into machine language. jvm only takes byte code file as input. SINCE JAVA IS PLATFORM INDEPENDENT BUT JVM IS PLATFORM DEPENDENT BECAUSE FOR EVERY OPERATING SYSTEM (WINDOWS, MAC, LINUX) JVM IS WRITTEN DIFFERENTLY.
+
+// jre : java runtime environment contains jvm and other java's libraries which support to run your java code. jre is an run time environment which provide abstraction(ie. isolated environment) instead of running your code directly on operating system (ie windows,linux,mac : which are installed on your hardware machine eg. computer,laptop) that makes java more secure programming language as compared to others.jre creates a runtime environment in which the program can run effectively.EVERY USERS IN THIS WORLD WILL HAVE JVM AND JRE BY DEFAULT INSTALLED ON THEIR LAPTOP/COMPUTER. BUT FOR DEVELOPERS THEY NEED TO INSTALL JDK FOR DEVELOPMENT PURPOSES.JDK WILL HAVE UPGRADED VERSION TO WRITE JAVA APPLICATIONS.
 
 // note --> jre identifies all the helpful class libraries needed for execution, while jvm is a subclass of jre that decodes the byte code into machine language and other minor tasks. jvm and jre do not participate in the development processes like debugging and compiling;jdk is used for them. 
 // jdk : java development kit consists of jvm and jre. you need to install jdk on your machine to write code in java so that jre and jvm automatically installed on your machine.
