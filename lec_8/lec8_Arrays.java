@@ -119,5 +119,16 @@ for (int i = 0; i < num3.length; i++) {
     }
     System.out.println();
   }
+
+  /*
+   DISADVANTAGE OF ARRAY
+   1-> ARRAY ARE OF FIXED SIZED AS YOU DECLARED INITIALLY. AFTER SOME OPERATION IF YOU WANT TO INCREASE THE ARRAY'S SIZE THEN YOU CAN'T.YOU NEED TO CREATE A NEW ARRAY OF MORE LONGER SIZE AND NEED TO COPY THE PREVIOUS ARRAY'S ELEMENT. 
+
+   2--> For searching and updating it will traverse over the whole array and this will take time.
+
+   3--> WHAT IF YOU WANT TO ARRAY OF DIFFERENT DATA TYPES.
+
+   SOLUTIONS: TO OVERCOME ALL THE ABOVE PROBLEM WE GO FOR " COLLECTION "
+   */
 }}
 
