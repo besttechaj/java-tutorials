@@ -1,4 +1,4 @@
- class Student {
+class Student {
 int rollNo;
 int marks;
 String name;  
@@ -29,8 +29,15 @@ String name;
     stud[1]=s2;
     stud[2]=s3;
 
-    for (int i = 0; i < stud.length; i++) {
-      System.out.println(stud[i].rollNo+" : "+stud[i].name+" : "+stud[i].marks);
+    // for (int i = 0; i < stud.length; i++) {
+    //   System.out.println(stud[i].rollNo+" : "+stud[i].name+" : "+stud[i].marks);
+    // }
+
+    //TO OVERCOME FOR LOOP
+    // for each loop/ enhanced for loop : stores  single value during each iteration
+    //
+    for (Student students : stud) {
+      System.out.println(students.rollNo+" : "+students.name+" : "+students.marks);
     }
   }
 }
