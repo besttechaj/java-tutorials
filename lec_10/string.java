@@ -14,7 +14,8 @@ public class string {
     System.out.println("before updating: " + fname.hashCode());
     // It will create a new memory, original memory will remain unchanged: all this
     // because of string constant pool concept which checks if the provided string
-    // literals/ value is already present or not. If it present then give the same
+    // literals/ value is already present or not. If the literal is already present
+    // then give the same
     // reference to another variable or else create another new memory for string
     // literal inside string constant pool
 
